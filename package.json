@@ -1,0 +1,13 @@
+{
+  "name": "carbon-market-mvp",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@9.15.3",
+  "scripts": {
+    "dev:web": "pnpm --filter @carbon/web dev",
+    "dev:api": "pnpm --filter @carbon/api start:dev",
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
+    "format": "pnpm -r format"
+  }
+}
